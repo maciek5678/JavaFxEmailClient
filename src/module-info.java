@@ -10,4 +10,5 @@ module JavaFxEmailClient {
     opens com.launcher;
     opens com.launcher.view;
     opens com.launcher.controller;
+    opens com.launcher.model;
 }
