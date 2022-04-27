@@ -6,6 +6,7 @@ import com.launcher.model.EmailMessage;
 import com.launcher.model.EmailTreeItem;
 import com.launcher.model.SizeInteger;
 import com.launcher.view.ViewFactory;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -56,6 +57,8 @@ public class MainWindowController extends BaseController implements Initializabl
         super(emailManager, viewFactory, fxmlName);
     }
 
+
+
     @FXML
     void optionsAction() {
         viewFactory.showOptionsWindow();
@@ -67,6 +70,15 @@ public class MainWindowController extends BaseController implements Initializabl
         viewFactory.showLoginWindow();
 
     }
+
+
+    @FXML
+    void composeMessageAction(ActionEvent event) {
+
+        viewFactory.showComposeMessageWindow();
+    }
+
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
