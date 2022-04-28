@@ -60,7 +60,7 @@ public class EmailSenderService extends Service<EmailSendingResult> {
                     return EmailSendingResult.FAILED_BY_UNEXPECTED_ERROR;
                 }
 
-               
+
             }
         };
     }
