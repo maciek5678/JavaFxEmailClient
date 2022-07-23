@@ -11,9 +11,9 @@
       <Label layoutX="13.0" layoutY="14.0" text="Subject" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="547.0" />
       <Label layoutX="14.0" layoutY="42.0" text="Sender" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="512.0" />
       <Label fx:id="attachmentsLabel" layoutX="14.0" layoutY="68.0" text="Attachments" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="512.0" />
-      <WebView fx:id="webView" layoutX="10.0" layoutY="154.0" prefHeight="473.0" prefWidth="581.0" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="154.0" />
+      <WebView fx:id="webView" layoutX="10.0" layoutY="108.0" prefHeight="519.0" prefWidth="581.0" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="108.0" />
       <Label fx:id="subjectLabel" layoutX="118.0" layoutY="14.0" prefHeight="17.0" prefWidth="471.0" />
       <Label fx:id="senderLabel" layoutX="118.0" layoutY="42.0" prefHeight="17.0" prefWidth="471.0" />
-      <HBox fx:id="hBoxDownloads" layoutX="18.0" layoutY="96.0" prefHeight="36.0" prefWidth="554.0" />
+      <HBox fx:id="hBoxDownloads" layoutX="97.0" layoutY="59.0" prefHeight="36.0" prefWidth="477.0" />
    </children>
 </AnchorPane>
